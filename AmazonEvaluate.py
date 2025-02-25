@@ -32,7 +32,7 @@ class AmazonEvaluate:
 
         EnsemblePredictions = self.EnsembleVoting(Predictions)
         EnsembleAccuracy = accuracy_score(self.YTest, EnsemblePredictions)
-        print(f"\n🔥 Ensemble Model Accuracy (Majority Voting): {EnsembleAccuracy:.4f}")
+        print(f"\n Ensemble Model Accuracy (Majority Voting): {EnsembleAccuracy:.4f}")
 
         self.MisclassificationAnalysis(Predictions)
         return Results
