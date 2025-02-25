@@ -17,3 +17,11 @@ This project focuses on classifying Amazon reviews into star ratings (1-5) using
 ```bash
 pip install -r requirements.txt
 ```
+## Project Structure
+AmazonDataSetLoader.py - Loads and preprocesses the dataset.
+AmazonFeatureExtractor.py - Converts text into numerical features.
+AmazonTrain.py - Trains the classification models.
+AmazonEvaluate.py - Evaluates model performance.
+main.py - Runs the full pipeline.
+requirements.txt - Contains the necessary Python dependencies.
+There not much for me to say here anymore I leave Up to excution thanks.
